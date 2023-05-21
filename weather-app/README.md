@@ -1,0 +1,1 @@
+![App screenshot](./public/img/screenshot.png "Title")
