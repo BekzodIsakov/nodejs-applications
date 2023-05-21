@@ -15,10 +15,9 @@ form.onsubmit = function (e) {
 };
 
 async function getForecast(location) {
-  const BASE_URL = "http://localhost:3000";
   try {
     const response = await fetch(
-      `${BASE_URL}/weather?location=${location}`
+      `/weather?location=${location}`
     );
     const forecast = await response.json();
     renderForecast(forecast);
@@ -27,6 +26,8 @@ async function getForecast(location) {
     console.error(error);
   }
 }
+
+// console.log(process.env.NODE_ENV || 'development');
 
 function renderForecast({ location, forecastData, error }) {
   if (error) return showResult(error, true);
