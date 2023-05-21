@@ -70,7 +70,9 @@ app.use((req, res, next) => {
   });
 });
 
+
 const PORT = 3000;
 app.listen(PORT, () => {
-  console.log("Server is runnning on port " + PORT);
+  console.log("Server is live");
+  console.log(process.env.NODE_ENV || 'development');
 });
