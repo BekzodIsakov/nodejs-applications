@@ -1,8 +1,8 @@
 ## Services and dependencies used
 
-- [Mapbox](https://www.mapbox.com) - geocoding
-- [Weatherstack](https://https://weatherstack.com) - weather forecast
-- [hbs](https://www.npmjs.com/package/hbs) - view engine
+- [Mapbox](https://www.mapbox.com "mapbox.com") - geocoding
+- [Weatherstack](https://https://weatherstack.com "weatherstack.com") - weather forecast
+- [hbs](https://www.npmjs.com/package/hbs "npmjs.com") - view engine
 
 To run the app locally:
 
