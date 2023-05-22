@@ -10,6 +10,6 @@ To run the app locally:
 2. `npm run dev` - to start the server
 3. The app is live on http://localhost:3000
 
-The app is live on [this](https://weather-app-express-kqur.onrender.com/) link
+[Live demo](https://weather-app-express-kqur.onrender.com/)
 
 ![App screenshot](./public/img/screenshot.png "App screenshot")
